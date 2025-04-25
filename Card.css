@@ -1,0 +1,71 @@
+.maincard{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    height: 300px;
+    width: 300px;
+    /* background-color: black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 4vw;
+}
+
+.imagecard{
+    height: 85%;
+    width: 100%;
+    /* background-color: darkcyan; */
+    background-image: url(assets/image2.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.iconcard{
+    height: 15%;
+    width: 100%;
+    /* background-color:darkorange; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconcard-left{
+    height: 100%;
+    width: 50%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    padding: 0 1vw;
+}
+
+.iconcard-left img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+}
+.iconcard-left p{
+    background-color: #d0d1d4;
+    font-size: .8vw;
+    padding: .2vw .5vw;
+    color: white;
+    font-weight: 800;
+    border-radius: 2px;
+
+}
+
+.iconcard-right{
+    height: 100%;
+    width: 50%;
+    /* background-color: darkkhaki; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}

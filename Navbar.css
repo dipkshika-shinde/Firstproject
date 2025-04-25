@@ -1,0 +1,63 @@
+.navbar{
+    height: 50px;
+    width: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+}
+.profile{
+    height: 40px;
+    width: 40px;
+    /* background-color: aqua; */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left{
+    height:100% ;
+    width:20% ;
+    /* background-color:chartreuse; */
+    padding:0  2vw ;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+   
+
+}
+.left h1{
+  font-size: 1.5vw;
+  font-weight: 900;
+}
+
+.mid{
+    height:100% ;
+    width:50% ;
+    /* background-color:orange; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.mid a{
+    text-decoration: none;
+    font-size: 1.1vw;
+    color: black;
+    /* font-weight: 00; */
+}
+.right{
+    height:100% ;
+    width:30% ;
+    /* background-color:crimson; */
+    padding:0  2vw ;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+}
+.profile{
+    background-color: darkmagenta;
+    color: white;
+    font-size: 1.2vw;
+    font-weight: 700
+}

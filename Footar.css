@@ -1,0 +1,94 @@
+.container{
+    height: 140px;
+    width: 100%;
+    padding: 2vw 0;
+}
+
+.upper{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left1{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 2vw;
+}
+
+.left1 h3{
+    font-size: 1.5vw;
+    font-weight: 600;
+}
+
+.mid1{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+   
+}
+
+.mid1 a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.1vw;
+    font-weight: 300;
+}
+
+.right1{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  
+    gap: 15px;
+}
+
+.lower{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2vw;
+}
+
+.lower-left{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 4vw;
+    gap: 10px;
+
+}
+
+
+.lower-left a{
+    text-decoration: none;
+    color:#a4a2a2;
+}
+.lower-right{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 4vw;
+    gap: 10px;
+}
+
+.lower-right a{
+    text-decoration: none;
+    color:#a4a2a2;
+}
